@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       'construct': ['Poppins, sans-serif']
     },
-    extend: {backgroundImage: theme => ({ 'hero-pattern': "url('https://www.canyon-news.com/wp-content/uploads/2017/12/Capture-3.jpg')" })
+    extend: {backgroundImage: theme => ({ 'hero-pattern': "url('https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2013/2/22/3/sh13_01-pool-EPP8739_4x3.jpg.rend.hgtvcom.1280.960.suffix/1400977320198.jpeg')" })
     },
   },
   variants: {

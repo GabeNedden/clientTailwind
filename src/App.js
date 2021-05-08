@@ -2,107 +2,97 @@ import './App.css';
 
 function App() {
   return (
-    <div class="font-sans flex flex-col items-center">
+    <div class="font-construct flex flex-col">
         
-        <header class="bg-hero-pattern h-screen w-screen flex justify-center border-b-8 border-white px-4">
+        <header class="bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 h-screen w-screen flex justify-center border-b-8 border-white">
             <div class="max-w-4xl w-full">
                 <div class="flex items-center justify-between text-gray-400">
                     <img class='object-contain m-8 h-36 w-full' src='https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Groupe%20Constructek%20Logos.png/:/rs=w:373,h:162,cg:true,m/cr=w:373,h:162/qt=q:95' alt='logo'></img>
                 </div>
                 
                 <div class="my-4">
-                    <h1 class="text-6xl mt-12 font-bold text-center text-white font-construct">Building Trust with Quality Work</h1>
-                    <p class="text-4xl mt-4 justify-center text-center text-white font-construct">We'll get the job done!</p>
+                    <h1 class="text-6xl mt-12 font-bold text-center text-white ">Building Trust with Quality Work</h1>
+                    <p class="text-4xl mt-4 justify-center text-center text-white ">We'll get the job done!</p>
                 </div>
             </div>
         </header>
 
         {/* End of Hero */}
         
-        <main class=" w-full flex flex-col items-center">
+        <main class=" flex flex-col items-center">
             <div>
                 
-                <div class="bg-white w-screen px-16 py-20 grid grid-cols-1 sm:grid-cols-7 gap-6">
-
-                    <div class=" w-full col-span-4">
-                        <div class="ml-10 h-full flex flex-col items-center">
-
-                            <div class="text-7xl font-construct font-bold">Landscaping and Hardscaping</div>
-                            <div class="text-gray-700 mt-5 text-med font-construct">Whether it be a small garden renovation or a complete front and back yard installation, we take the same care and attention to each detail to ensure that the time spent in your yard is relaxing and rewarding. </div>
-                            <div class="text-gray-700 mt-4 text-med font-construct">We keep an eye on budgets to ensure the lowest costs, stay on top of schedules for timely delivery and work closely with the design team to create your vision.</div>
-                        </div>
-                    </div>
-                    
-                    <div class="w-full col-span-3">
-                        <div class="h-fullflex flex-col items-center">
-                            <div class=" object-contain h-48 flex flex-col items-center">
-                                <img src='https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true' alt='home'></img>
+                <div class="bg-white w-screen py-20">
+                    <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                        <div class="md:flex">
+                            <div class="md:flex-shrink-0">
+                                <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true" alt="Home with Deck"/>
+                            </div>
+                            <div class="p-8">
+                                <div class="uppercase tracking-wide text-sm text-blue-500 font-semibold">Placeholder!</div>
+                                <div class="block mt-1 text-6xl leading-tight font-bold text-black">Landscaping and Hardscaping</div>
+                                <p class="mt-2 text-gray-800">Whether it be a small garden renovation or a complete front and back yard installation, we take the same care and attention to each detail to ensure that the time spent in your yard is relaxing and rewarding.</p>
+                                <p class="mt-2 text-gray-800">We keep an eye on budgets to ensure the lowest costs, stay on top of schedules for timely delivery and work closely with the design team to create your vision.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-gray-100 px-16 py-20 grid grid-cols-1 sm:grid-cols-7 gap-6">
-
-                    <div class=" w-full col-span-4">
-                        <div class="ml-10 h-full flex flex-col items-center">
-
-                            <div class="text-7xl font-construct font-bold">Landscaping and Hardscaping</div>
-                            <div class="text-gray-700 mt-5 text-med font-construct">Whether it be a small garden renovation or a complete front and back yard installation, we take the same care and attention to each detail to ensure that the time spent in your yard is relaxing and rewarding. </div>
-                            <div class="text-gray-700 mt-4 text-med font-construct">We keep an eye on budgets to ensure the lowest costs, stay on top of schedules for timely delivery and work closely with the design team to create your vision.</div>
-                        </div>
-                    </div>
-                    
-                    <div class="w-full col-span-3">
-                        <div class="h-fullflex flex-col items-center">
-                            <div class=" object-contain h-48 flex flex-col items-center">
-                                <img src='https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true' alt='home'></img>
+                <div class="bg-white w-screen py-20">
+                    <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                        <div class="md:flex">
+                            <div class="md:flex-shrink-0">
+                                <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true" alt="Home with Deck"/>
+                            </div>
+                            <div class="p-8">
+                                <div class="uppercase tracking-wide text-sm text-blue-500 font-semibold">Placeholder!</div>
+                                <div class="block mt-1 text-6xl leading-tight font-bold text-black">Fences & Decks</div>
+                                <p class="mt-2 text-gray-800">Group Constructek has a team of carpentry professionals to help create a new fence, deck or custom structure for your home. We install a wide variety of fences and outdoor structures and our team will work closely with you to achieve a long lasting investment that compliments you and your home.</p>
+                                <p class="mt-2 text-gray-800">Some of the items we build, but are not limited to, are: fences, trellises, pergolas, gazebos, gates & archways, vegetable/garden beds, retaining walls, concrete forms, decks and landings.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white px-16 py-20 grid grid-cols-1 sm:grid-cols-7 gap-6">
-
-                    <div class=" w-full col-span-4">
-                        <div class="ml-10 h-full flex flex-col items-center">
-
-                            <div class="text-7xl font-construct font-bold">Landscaping and Hardscaping</div>
-                            <div class="text-gray-700 mt-5 text-med font-construct">Whether it be a small garden renovation or a complete front and back yard installation, we take the same care and attention to each detail to ensure that the time spent in your yard is relaxing and rewarding. </div>
-                            <div class="text-gray-700 mt-4 text-med font-construct">We keep an eye on budgets to ensure the lowest costs, stay on top of schedules for timely delivery and work closely with the design team to create your vision.</div>
-                        </div>
-                    </div>
-                    
-                    <div class="w-full col-span-3">
-                        <div class="h-fullflex flex-col items-center">
-                            <div class=" object-contain h-48 flex flex-col items-center">
-                                <img src='https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true' alt='home'></img>
+                <div class="bg-white w-screen py-20">
+                    <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                        <div class="md:flex">
+                            <div class="md:flex-shrink-0">
+                                <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true" alt="Home with Deck"/>
+                            </div>
+                            <div class="p-8">
+                                <div class="uppercase tracking-wide text-sm text-blue-500 font-semibold">Placeholder!</div>
+                                <div class="block mt-1 text-6xl leading-tight font-bold text-black">Services we Offer</div>
+                                <ul class="list-disc mt-2 text-gray-800">
+                                    <li>Landscape Planning / Concept Drawing</li>
+                                    <li>Fences, Decks, Pergolas, Custom Wooden Features</li>
+                                    <li>Driveway Installations, Retaining Walls, Steps and Pathways</li>
+                                    <li>Excavation and Machine Transferring of Materials</li>
+                                    <li>Landscape Lighting</li>
+                                    <li>Softscape Installation : Lawns and Gardens</li>
+                                    <li>Green Roof, Living Wall or Vertical Gardens</li>
+                                    <li>Delivery of Soils & Aggregates</li>
+                                </ul>
+                                <p class="mt-2 text-gray-800">Working with trusted subcontractors, we keep them accountable throughout the entire build. From sequence to production and quality control, we stay focused on the goal. </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-gray-100 px-16 py-20 grid grid-cols-1 sm:grid-cols-7 gap-6">
-
-                    <div class=" w-full col-span-4">
-                        <div class="ml-10 h-full flex flex-col items-center">
-
-                            <div class="text-7xl font-construct font-bold">Landscaping and Hardscaping</div>
-                            <div class="text-gray-700 mt-5 text-med font-construct">Whether it be a small garden renovation or a complete front and back yard installation, we take the same care and attention to each detail to ensure that the time spent in your yard is relaxing and rewarding. </div>
-                            <div class="text-gray-700 mt-4 text-med font-construct">We keep an eye on budgets to ensure the lowest costs, stay on top of schedules for timely delivery and work closely with the design team to create your vision.</div>
-                        </div>
-                    </div>
-                    
-                    <div class="w-full col-span-3">
-                        <div class="h-fullflex flex-col items-center">
-                            <div class=" object-contain h-48 flex flex-col items-center">
-                                <img src='https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true' alt='home'></img>
+                <div class="bg-white w-screen py-20">
+                    <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                        <div class="md:flex">
+                            <div class="md:flex-shrink-0">
+                                <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true" alt="Home with Deck"/>
+                            </div>
+                            <div class="p-8">
+                                <div class="uppercase tracking-wide text-sm text-blue-500 font-semibold">Placeholder!</div>
+                                <div class="block mt-1 text-6xl leading-tight font-bold text-black">Final Steps</div>
+                                <p class="mt-2 text-gray-800">The last step in any build. This phase includes site cleanup, systems training, final inspections and move-in coordination. After completion, we have a final walkthrough to ensure your complete satisfaction. </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-
 
                 {/* End of TestZone */}
 
