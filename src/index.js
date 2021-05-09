@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 import Header from './components/Header'
 import Cards from './components/Cards'

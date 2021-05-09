@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       'construct': ['Poppins, sans-serif']
     },
-    extend: {backgroundImage: theme => ({ 'hero-pattern': "url('https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2013/2/22/3/sh13_01-pool-EPP8739_4x3.jpg.rend.hgtvcom.1280.960.suffix/1400977320198.jpeg')" })
+    extend: {backgroundImage: theme => ({ 'hero-pattern': "url('https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Home%204%20-%20297981512%201000PX.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true')" })
     },
   },
   variants: {
