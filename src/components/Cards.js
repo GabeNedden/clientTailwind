@@ -1,7 +1,7 @@
 function Card() {
     return (
         <div class="font-construct">
-            <div class="bg-white w-full py-12">
+            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
@@ -16,7 +16,7 @@ function Card() {
                 </div>
             </div>
 
-            <div class="bg-white w-full py-12">
+            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
@@ -31,7 +31,7 @@ function Card() {
                 </div>
             </div>
 
-            <div class="bg-white w-full py-12">
+            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
@@ -55,7 +55,7 @@ function Card() {
                 </div>
             </div>
 
-            <div class="bg-white w-full py-12">
+            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
