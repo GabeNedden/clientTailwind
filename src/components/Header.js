@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <div class="font-construct">
+        <div class="font-construct mb-8">
         <header class="bg-hero-pattern bg-cover h-screen w-full flex justify-center border-b-8 border-white">
             <div class="max-w-4xl w-full">
                 <div class="flex items-center justify-between text-gray-400">

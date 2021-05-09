@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import 'pure-react-carousel/dist/react-carousel.es.css';
 
-import Header from './components/Header'
-import Cards from './components/Cards'
+import Header from './components/Header';
+import Cards from './components/Cards';
+import Gallery from './components/Gallery';
+import About from './components/About';
+
+import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Cards />
+    <Gallery />
+    <About />
+
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
