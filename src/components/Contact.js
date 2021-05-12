@@ -29,7 +29,7 @@ function Contact() {
             <div class="bg-white dark:bg-gray-900">
                 <div class="flex w-full justify-around items-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white py-5">
                 </div>
-                <form action="" class="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 md:dark:border-gray-100 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+                <form action="http://localhost:3000" method="post" class="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 md:dark:border-gray-100 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
                     <div class="mb-10">
                         <h1 class="font-bold text-4xl mb-3">Get in touch</h1>
                         <p class="font-medium text-lg mb-5">Send us a quick message and we'll get back to you shortly.</p>
@@ -54,11 +54,10 @@ function Contact() {
                         </div>
                     </div>
                     <div>
-                        <button type="button" class="font-medium shadow-md rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 border border-gray-900 dark:border-gray-100 bg-gray-800 dark:bg-gray-200 text-gray-200 dark:text-gray-800 hover:bg-gray-900 dark:hover:bg-gray-100"><i class="fas fa-check"></i> Send</button>
+                        <button type="submit" class="font-medium shadow-md rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 border border-gray-900 dark:border-gray-100 bg-gray-800 dark:bg-gray-200 text-gray-200 dark:text-gray-800 hover:bg-gray-900 dark:hover:bg-gray-100"><i class="fas fa-check"></i> Send</button>
                     </div>
                 </form>
                 </div>
-
 
         </div>
     )
