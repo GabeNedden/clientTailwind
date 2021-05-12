@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Cards from './components/Cards';
 import Gallery from './components/Gallery';
 import About from './components/About';
-
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,7 +16,7 @@ ReactDOM.render(
     <Cards />
     <Gallery />
     <About />
-
+    <Contact />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
