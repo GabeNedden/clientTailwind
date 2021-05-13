@@ -37,6 +37,7 @@ function Contact() {
                         <p class="font-medium text-lg mb-5">Send us a message and we'll get back to you shortly.</p>
                         <hr class="border-gray-900 dark:border-gray-100" />
                     </div>
+                    <input type="hidden" name="form-name" value="simpleContactForm" />
                     <div class="mb-5">
                         <label for="message" class="text-lg flex justify-between items-end"><span>Message</span><span class="text-xs text-red-500">Required</span></label>
                         <textarea name="message" id="message" cols="30" rows="10" class="shadow-md mt-1 block w-full sm:text-sm rounded-none border-gray-900 dark:border-gray-100 bg-white dark:bg-gray-900"></textarea>
