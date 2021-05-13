@@ -10,11 +10,17 @@
   </head>
   <body>
 
-    <form hidden name="simpleContactForm" method="POST" data-netlify="true" id="simple-contact-form">
+    <form hidden name="simpleContactForm" netlify-honeypot="bot-field" method="POST" data-netlify="true" id="simple-contact-form">
       <div data-netlify-recaptcha="true"></div>
+          <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
           <textarea name="message" id="message" cols="30" rows="10"></textarea>
           <input type="text" name="name" />
           <input type="email" name="email" />
+
+          <div data-netlify-recaptcha="true"></div>
+
           <button type="submit" ></button><i class="fas fa-check"></i> Send</button>
   </form>
   </div>
