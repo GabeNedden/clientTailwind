@@ -1,6 +1,23 @@
 import truck from '../images/truck.png';
 
 function Contact() {
+
+    const redirectField = document.querySelector('.redirect');
+    const pageUrl = window.location.href;
+    redirectField.value = pageUrl;
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const formMessage = document.querySelector('.form-message');
+
+    if(urlParams.has('submit')) {
+        if(urlParams.get('submit') === 'true') {
+            formMessage.innerHTML = `<div class="mb-5 p-3 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 md:dark:border-gray-100 bg-green-400 dark:bg-green-400 text-gray-900 dark:text-gray-900">Thanks for your enquiry, someone will be in touch shortly.</div>`;
+            formMessage.scrollIntoView();
+            window.scrollBy(0, -20);
+        }
+    }
+
     return (
 
         <div class="font-construct items-center justify-between">
@@ -29,7 +46,8 @@ function Contact() {
             <div class="bg-white dark:bg-gray-900">
                 <div class="flex w-full justify-around items-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white py-5">
                 </div>
-                <form action="https://constructek-contact.herokuapp.com/" method="post" class="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 md:dark:border-gray-100 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+                <form action="http://localhost:3000" method="post" class="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 md:dark:border-gray-100 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+                    <input type="hidden" name="redirect" class="redirect" />
                     <div class="mb-10">
                         <h1 class="font-bold text-4xl mb-3">Get in touch</h1>
                         <p class="font-medium text-lg mb-5">Send us a quick message and we'll get back to you shortly.</p>
