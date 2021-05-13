@@ -58,14 +58,11 @@ function About() {
                                 <img class="mx-auto" alt="Kichler" src={kichler} />
                             </div>
 
-                            <div class="w-full sm:w-1/3 h-32 mb-4 sm:mb-0 px-2">
+                            <div class="w-full sm:w-1/2 h-32 mb-4 sm:mb-0 px-2">
                                 <img class="mx-auto" alt="Oaks" src={oaks} />
                             </div>
-                            <div class="w-full sm:w-1/3 h-32 mb-4 sm:mb-0 px-2">
+                            <div class="w-full sm:w-1/2 h-32 mb-4 sm:mb-0 px-2">
                                 <img class="mx-auto" alt="Permacon" src={permacon} />
-                            </div>
-                            <div class="w-full sm:w-1/3 h-32 px-2">
-                                <img class=" h-32 m-auto" alt="Kichler" src="https://avatars.githubusercontent.com/u/10982285?v=4" />
                             </div>
                         </div>
                     </div>

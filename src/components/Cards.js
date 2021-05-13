@@ -1,3 +1,8 @@
+import pavers from '../images/PaversandFence.jpg';
+import couch from '../images/DeckWood3.jpeg';
+import house from '../images/FenceWood2.jpg';
+import house2 from '../images/Home4.jpg';
+
 function Card() {
     return (
         <div class="font-construct">
@@ -5,7 +10,7 @@ function Card() {
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true" alt="Home with Deck"/>
+                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={pavers} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Landscaping and Hardscaping</div>
@@ -20,7 +25,7 @@ function Card() {
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Deck%20Wood%203%20-%20644783071%201000PX.jpeg/:/cr=t:0%25,l:16.65%25,w:66.7%25,h:100%25/rs=w:400,h:400,cg:true" alt="Home with Deck"/>
+                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={couch} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Fences & Decks</div>
@@ -35,7 +40,7 @@ function Card() {
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Pavers%20and%20Fence%20-%20719378803%201000PX.jpg/:/cr=t:0%25,l:5.78%25,w:88.45%25,h:100%25/rs=w:400,h:301,cg:true" alt="Home with Deck"/>
+                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={house2} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Services we Offer</div>
@@ -59,7 +64,7 @@ function Card() {
                 <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-11/12" src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Fence%20Wood%202%20-%201704628096%201000PX.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true" alt="Home with Deck"/>
+                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={house} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Final Steps</div>
