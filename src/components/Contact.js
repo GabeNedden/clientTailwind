@@ -46,7 +46,7 @@ function Contact() {
             <div class="bg-white dark:bg-gray-900">
                 <div class="flex w-full justify-around items-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white py-5">
                 </div>
-                <form action="http://localhost:3000" method="post" class="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 md:dark:border-gray-100 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+                <form action="https://constructek-contact.herokuapp.com/" method="post" class="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 md:dark:border-gray-100 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
                     <input type="hidden" name="redirect" class="redirect" />
                     <div class="mb-10">
                         <h1 class="font-bold text-4xl mb-3">Get in touch</h1>
