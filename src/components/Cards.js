@@ -7,10 +7,10 @@ function Card() {
     return (
         <div class="font-construct">
             <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
-                <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={pavers} alt="Home with Deck"/>
+                            <img class="h-full w-full object-cover md:w-96" src={pavers} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Landscaping and Hardscaping</div>
@@ -22,10 +22,10 @@ function Card() {
             </div>
 
             <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
-                <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={couch} alt="Home with Deck"/>
+                            <img class="w-full object-cover h-full md:w-96" src={couch} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Fences & Decks</div>
@@ -37,10 +37,10 @@ function Card() {
             </div>
 
             <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
-                <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={house2} alt="Home with Deck"/>
+                            <img class="w-full object-cover h-full md:w-96" src={house2} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Services we Offer</div>
@@ -61,10 +61,10 @@ function Card() {
             </div>
 
             <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
-                <div class=" mx-auto bg-white rounded-xl border border-gray shadow-md overflow-hidden md:max-w-6xl">
+                <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
-                            <img class="h-48 w-full object-cover md:h-full md:w-96" src={house} alt="Home with Deck"/>
+                            <img class="w-full object-cover h-full md:w-96" src={house} alt="Home with Deck"/>
                         </div>
                         <div class="p-8">
                             <div class="block mt-1 text-4xl md:text-6xl leading-tight font-bold text-black">Final Steps</div>

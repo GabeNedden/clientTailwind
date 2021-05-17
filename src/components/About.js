@@ -9,7 +9,7 @@ function About() {
         <div class="font-construct flex flex-col">
             <h2 class="mt-8 text-center font-bold text-4xl md:text-6xl text-black">What We Do</h2>
             <div class="bg-white self-center w-10/12 md:w-1/2 py-8">
-                <div class=" mx-auto bg-white rounded-xl border border-gray md:max-w-6xl">
+                <div class=" mx-auto bg-white border border-gray md:max-w-6xl">
                     <div class="md:flex">
                         <div class="p-6">
                             <p class="text-center text-gray-800">Groupe Constructek is an innovative, full service, landscape, hardscaping, fence and deck design company. We are dedicated to superior landscaping services in residential installations, fence & deck installations and excavation services.  We are committed to excellence in every project regardless of size and scope.</p>
@@ -44,7 +44,7 @@ function About() {
 
                 <h2 class="mt-8 text-center font-bold text-4xl md:text-6xl text-black">Our Partners</h2>
             <div class="self-center w-10/12 py-8">
-                <div class=" mx-auto rounded-xl border border-gray md:max-w-6xl">
+                <div class=" mx-auto border border-gray md:max-w-6xl">
                     <div class="container mx-auto p-8">
                         <div class="flex flex-row flex-wrap">
 

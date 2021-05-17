@@ -24,7 +24,7 @@ function Contact() {
                     </div>
             </div>
 
-                <form name="simpleContactForm" method="POST" data-netlify-recaptcha="true" data-netlify="true" id="simple-contact-form" class="mb-20 p-10 max-w-xl mx-auto shadow-md rounded-md sm:border-0 md:border md:border-gray-900 text-gray-900">
+                <form name="simpleContactForm" method="POST" data-netlify-recaptcha="true" data-netlify="true" id="simple-contact-form" class="mb-20 p-10 max-w-xl mx-auto shadow-md  sm:border-0 md:border md:border-gray-900 text-gray-900">
                     <div class="mb-10">
                         <h1 class="font-bold text-4xl mb-3">Get in touch</h1>
                         <p class="font-medium text-lg mb-5">Send us a message and we'll get back to you shortly.</p>
@@ -33,23 +33,23 @@ function Contact() {
                     <input type="hidden" name="form-name" value="simpleContactForm" />
                     <div class="mb-5">
                         <label for="message" class="text-lg flex justify-between items-end"><span>Message</span><span class="text-xs text-red-500">Required</span></label>
-                        <textarea name="message" id="message" cols="30" rows="10" class="shadow-md mt-1 block w-full sm:text-sm border-gray-900 border border-gray-900 rounded-sm"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" class="p-3 shadow-md mt-1 block w-full sm:text-sm border-gray-900 border border-gray-900 "></textarea>
                     </div>
                     <div class="mb-5">
                         <label for="name" class="text-lg flex justify-between items-end"><span>Name</span><span class="text-xs text-red-500 ">Required</span></label>
                         <div class="mt-1 flex shadow-md">
-                            <input type="text" name="name" class="flex-1 block w-full sm:text-sm rounded-sm border border-gray-900 bg-white" />
+                            <input type="text" name="name" class="flex-1 block w-full sm:text-sm h-10 p-3 border border-gray-900 bg-white" />
                         </div>
                     </div>
                     <div class="mb-5">
                         <label for="email" class="text-lg flex justify-between items-end"><span>Email</span><span class="text-xs text-red-500">Required</span></label>
                         <div class="mt-1 flex shadow-md">
-                            <input type="email" name="email" class="flex-1 block w-full sm:text-sm rounded-sm border border-gray-900 bg-white" />
+                            <input type="email" name="email" class="flex-1 block w-full sm:text-sm h-10 p-3 border border-gray-900 bg-white" />
                         </div>
                     </div>
                     <div data-netlify-recaptcha="true"></div>
                     <div>
-                        <button type="submit" class="font-medium shadow-md rounded-sm p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 border border-gray-900 bg-gray-800 text-gray-200 hover:bg-gray-900"> Send</button>
+                        <button type="submit" class="font-medium shadow-md  p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 border border-gray-900 bg-gray-800 text-gray-200 hover:bg-gray-900"> Send</button>
                     </div>
                 </form>
 
