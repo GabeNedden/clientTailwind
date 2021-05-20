@@ -5,8 +5,8 @@ import house2 from '../images/Home4.jpg';
 
 function Card() {
     return (
-        <div class="font-construct">
-            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
+        <div class="font-construct mt-8">
+            <div class="bg-white mx-auto w-11/12 xl:w-full md:py-12 py-6">
                 <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
@@ -21,7 +21,7 @@ function Card() {
                 </div>
             </div>
 
-            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
+            <div class="bg-white mx-auto w-11/12 xl:w-full md:py-12 py-6">
                 <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
@@ -36,7 +36,7 @@ function Card() {
                 </div>
             </div>
 
-            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
+            <div class="bg-white mx-auto w-11/12 xl:w-full md:py-12 py-6">
                 <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
@@ -60,7 +60,7 @@ function Card() {
                 </div>
             </div>
 
-            <div class="bg-white mx-auto w-11/12 xl:w-full py-12">
+            <div class="bg-white mx-auto w-11/12 xl:w-full md:py-12 py-6">
                 <div class=" mx-auto bg-white border border-gray shadow-md overflow-hidden md:max-w-6xl">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Cards from './components/Cards';
 import Gallery from './components/Gallery';
@@ -12,6 +13,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar />
     <Header />
     <Cards />
     <Gallery />

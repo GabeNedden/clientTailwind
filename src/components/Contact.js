@@ -31,10 +31,7 @@ function Contact() {
                         <hr class="border-gray-900" />
                     </div>
                     <input type="hidden" name="form-name" value="simpleContactForm" />
-                    <div class="mb-5">
-                        <label for="message" class="text-lg flex justify-between items-end"><span>Message</span><span class="text-xs text-red-500">Required</span></label>
-                        <textarea name="message" id="message" cols="30" rows="10" class="p-3 shadow-md mt-1 block w-full sm:text-sm border-gray-900 border border-gray-900 "></textarea>
-                    </div>
+                    
                     <div class="mb-5">
                         <label for="name" class="text-lg flex justify-between items-end"><span>Name</span><span class="text-xs text-red-500 ">Required</span></label>
                         <div class="mt-1 flex shadow-md">
@@ -42,10 +39,20 @@ function Contact() {
                         </div>
                     </div>
                     <div class="mb-5">
+                        <label for="phone" class="text-lg flex justify-between items-end"><span>Phone Number</span><span class="text-xs text-red-500">Required</span></label>
+                        <div class="mt-1 flex shadow-md">
+                            <input type="tel" name="phone" class="flex-1 block w-full sm:text-sm h-10 p-3 border border-gray-900 bg-white" />
+                        </div>
+                    </div>
+                    <div class="mb-5">
                         <label for="email" class="text-lg flex justify-between items-end"><span>Email</span><span class="text-xs text-red-500">Required</span></label>
                         <div class="mt-1 flex shadow-md">
                             <input type="email" name="email" class="flex-1 block w-full sm:text-sm h-10 p-3 border border-gray-900 bg-white" />
                         </div>
+                    </div>
+                    <div class="mb-5">
+                        <label for="message" class="text-lg flex justify-between items-end"><span>Message</span><span class="text-xs text-red-500">Required</span></label>
+                        <textarea name="message" id="message" cols="30" rows="10" class="p-3 shadow-md mt-1 block w-full sm:text-sm border-gray-900 border border-gray-900 "></textarea>
                     </div>
                     <div data-netlify-recaptcha="true"></div>
                     <div>
