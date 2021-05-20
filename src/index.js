@@ -1,24 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 
 import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Cards from './components/Cards';
-import Gallery from './components/Gallery';
-import About from './components/About';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import English from './Pages/English';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
-    <Header />
-    <Cards />
-    <Gallery />
-    <About />
-    <Contact />
+      <Router>
+        <Route exact path='/' component={English} />
+        
+      </Router>
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
