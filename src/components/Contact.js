@@ -12,7 +12,7 @@ function Contact() {
                         <div class="p-3 text-gray-800 text-md">We love our customers, so feel free to contact us during normal business hours and we will meet you at your residence to discuss your project. Use our contact form to tell us more about your project, and we will connect with you shortly.</div>
                         <div class="font-medium text-xl p-3">Groupe Constructek</div>
                         <div class="pl-3 text-gray-800 text-md">4141, rue Sherbrooke O. Suite 650, Montreal, Québec H3Z 1B8</div>
-                        <div class="pl-3 text-gray-800 text-md">Telephone: 514 242-4488</div>
+                        <a href="tel:514 242-4488" class="pl-3 text-blue-900 text-md">Telephone: 514 242-4488</a>
                         <div class="font-medium text-xl p-3">Hours</div>
                         <div class="pl-3 text-gray-800 text-md">Monday to Friday</div>
                         <div class="pl-3 text-gray-800 text-md">9:00AM to 5:00PM</div>

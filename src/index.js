@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 
 import Navbar from './components/Navbar';
+import NavbarSimple from './components/NavbarSimple';
 import Footer from './components/Footer';
 import English from './Pages/English';
 import reportWebVitals from './reportWebVitals';
