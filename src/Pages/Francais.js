@@ -18,11 +18,11 @@ import truck from '../images/truck.png';
 import Navbar from '../components/Navbar';
 
 const navigation = [
-    { name: 'Francais', href: '/fr', current: false },
-    { name: 'English', href: '/', current: true }
+    { name: 'Francais', href: '/fr', current: true },
+    { name: 'English', href: '/', current: false }
   ]
 
-function English() {
+function Francais() {
     return (
         <>
             <Navbar navigation={navigation} />
@@ -35,7 +35,7 @@ function English() {
                         </div> */}
                         <div class="py-24"></div>
                         <div class="p-4">
-                            <h1 class="text-6xl mt-8 self-center font-bold text-center text-white ">Building Trust with Quality Work</h1>
+                            <h1 class="text-6xl mt-8 self-center font-bold text-center text-white ">Building Trust with Quality French!</h1>
                             <p class="text-4xl mb-8 justify-center text-center text-white ">We'll get the job done!</p>
                         </div>
                     </div>
@@ -266,4 +266,4 @@ function English() {
     )
 }
 
-export default English;
+export default Francais;

@@ -2,16 +2,11 @@ import { Fragment } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MdClose, MdMenu } from 'react-icons/md';
 
-const navigation = [
-  { name: 'Francais', href: '/', current: false },
-  { name: 'English', href: '/', current: true }
-]
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-function Navbar() {
+function Navbar(props) {
   return (
     <Disclosure as="nav" className="bg-transparent font-construct fixed w-screen z-10">
       {({ open }) => (
@@ -40,7 +35,7 @@ function Navbar() {
               </div>
               
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                {navigation.map((item) => (
+                {props.navigation.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -59,7 +54,7 @@ function Navbar() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {navigation.map((item) => (
+              {props.navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
