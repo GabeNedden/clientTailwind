@@ -3,7 +3,8 @@ import { Disclosure } from '@headlessui/react';
 import { MdClose, MdMenu } from 'react-icons/md';
 
 const navigation = [
-  //{ name: 'Welcome', href: '/', current: true }
+  { name: 'Francais', href: '/', current: false },
+  { name: 'English', href: '/', current: true }
 ]
 
 function classNames(...classes) {
@@ -12,7 +13,7 @@ function classNames(...classes) {
 
 function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800 bg-opacity-80 font-construct fixed w-screen z-10">
+    <Disclosure as="nav" className="bg-transparent font-construct fixed w-screen z-10">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -31,38 +32,27 @@ function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-12 w-auto"
+                    className="block h-24 pt-4 w-auto"
                     src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Groupe%20Constructek%20Logos.png/:/rs=w:373,h:162,cg:true,m/cr=w:373,h:162/qt=q:95"
-                    alt="Test"
+                    alt="Logo"
                   />
-                  <img
-                    className="hidden lg:block h-12 w-auto"
-                    src="https://img1.wsimg.com/isteam/ip/6e52cc35-1234-4fad-8162-6aa30e890f62/Groupe%20Constructek%20Logos.png/:/rs=w:373,h:162,cg:true,m/cr=w:373,h:162/qt=q:95"
-                    alt="Test"
-                  />
-                </div>
-                <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
                 </div>
               </div>
               
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Francais</a>
-                <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">English</a>
+                {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className={classNames(
+                        item.current ? 'bg-gray-900 text-white ' : ' bg-gray-500 text-gray-300 hover:bg-gray-700 hover:text-white',
+                        'px-3 py-2 rounded-md text-sm font-medium invisible sm:visible mr-4'
+                      )}
+                      aria-current={item.current ? 'page' : undefined}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
               </div>
             </div>
           </div>
@@ -74,7 +64,7 @@ function Navbar() {
                   key={item.name}
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-900 text-white' : 'bg-gray-500 text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
