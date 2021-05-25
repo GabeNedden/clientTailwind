@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 
-import Footer from './components/Footer';
+import Landing from './Pages/Landing';
 import English from './Pages/English';
 import Francais from './Pages/Francais';
 import reportWebVitals from './reportWebVitals';
@@ -11,10 +11,10 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
       <Router>
-        <Route exact path='/' component={English} />
+        <Route exact path='/' component={Landing} />
         <Route exact path='/fr' component={Francais} />
+        <Route exact path='/en' component={English} />
       </Router>
-    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -19,7 +19,7 @@ import Navbar from '../components/Navbar';
 
 const navigation = [
     { name: 'Francais', href: '/fr', current: false },
-    { name: 'English', href: '/', current: true }
+    { name: 'English', href: '/en', current: true }
   ]
 
 function English() {
@@ -259,6 +259,10 @@ function English() {
             </form>
 
         </div>
+
+        <footer class="w-full bg-gray-800 pb-8 text-center text-med  font-light text-gray-600">
+            <p class="pt-6">Copyright &copy; 2021 Groupe Constructek - All Rights Reserved.</p>
+        </footer>
     
         </div>
     </>
