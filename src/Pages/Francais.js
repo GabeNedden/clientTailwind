@@ -19,7 +19,7 @@ import Navbar from '../components/Navbar';
 
 const navigation = [
     { name: 'Francais', href: '/fr', current: true },
-    { name: 'English', href: '/en', current: false }
+    { name: 'English', href: '/', current: false }
   ]
 
 function Francais() {
